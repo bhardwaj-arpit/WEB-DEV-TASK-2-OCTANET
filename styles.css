@@ -1,0 +1,113 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #d2b48c; /* Light brown color for diary effect */
+    background-image: url('https://www.publicdomainpictures.net/pictures/270000/velka/old-diary-background.jpg'); /* Diary-like background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    border: 2px solid #8b4513;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #8b4513;
+    font-family: 'Georgia', serif;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    padding: 10px;
+    background-color: #8b4513;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button:hover {
+    background-color: #a0522d;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+ul li {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fdf5e6; /* Notepad color */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+}
+
+ul li.complete {
+    text-decoration: line-through;
+    background-color: #d3d3d3;
+}
+
+ul li button {
+    margin-left: 10px;
+    background-color: #cd853f;
+}
+
+.order-buttons {
+    position: absolute;
+    top: 5px;
+    right: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.order-buttons button {
+    margin-bottom: 5px;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 3px;
+    background-color: #8b4513;
+    color: #fff;
+}
+
+.task-history {
+    margin-top: 30px;
+    background-color: #fff3e0;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.task-history h2 {
+    font-family: 'Georgia', serif;
+    color: #8b4513;
+    margin-bottom: 10px;
+}
